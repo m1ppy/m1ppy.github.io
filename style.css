@@ -1,0 +1,82 @@
+html, body {
+  width: 100%;
+  height: 300%;
+  padding: 0;
+  margin: 0  auto;
+  background-color: #f9f9f9;
+}
+
+header {
+  width: 100%;
+  height: 450px;
+  background-color: #ac1921;
+}
+
+#nav {
+  width: 850px;
+  height: 50px;
+  position: absolute;
+  top: 425px;
+  left: 0;
+  background-color: #efefef;
+  z-index: 99999;
+}
+
+.pc-icon {
+  width: 50px;
+  height: 50px;
+  background-color: #c0392b;
+  background-image: url('screen.svg');
+  background-repeat: no-repeat;
+  background-size: 32px;
+  background-position: 8px 10px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#nav ul {
+  width: 800px;
+  height: 50px;
+  list-style: none;
+  margin: 0;
+  padding: 0 50px;
+}
+
+#nav ul li {
+  width: 200px;
+  height: 50px;
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #666;
+  line-height: 50px;
+  float: left;
+  cursor: pointer;
+  -webkit-transition: 0.1s ease-out;
+  -moz-transition: 0.1s ease-out;
+  -o-transition: 0.1s ease-out;
+  transition: 0.1s ease-out;
+}
+
+#nav ul li:hover {
+  box-shadow: inset 0px -3px 0px 0px #c0392b;
+}
+
+.about {
+  width: calc(100% - 100px);
+  padding: 50px;
+  font-family: 'Comfortaa', sans-serif;
+  text-align: center;
+}
+
+.about p {
+  font-size: 20px;
+  color: #555;
+}
+
+.about h2 {
+  color: #c0392b;
+}
