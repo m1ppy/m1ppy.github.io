@@ -66,17 +66,39 @@ header {
 }
 
 .about {
+  position: absolute;
+  top: 450px;
+  left: 0;
   width: calc(100% - 100px);
-  padding: 50px;
+  padding: 0;
+  margin: 0;
   font-family: 'Comfortaa', sans-serif;
-  text-align: center;
 }
 
 .about p {
+  position: absolute;
+  top: 125px;
+  left: 50px;
   font-size: 20px;
   color: #555;
+  width: calc((100% - 100px) / 2);
+  text-align: left;
 }
 
 .about h2 {
+  position: absolute;
+  top: 35px;
+  left: calc(50vw - 100px);
+  width: 200px;
+  text-align: center;
   color: #c0392b;
+  line-height: 50px;
+  box-shadow: 0px 2px 0px 0px #c0392b;
+}
+
+.about img {
+  position: absolute;
+  top: 100px;
+  right: 50px;
+  width: calc((100% - 100px) / 6);
 }
